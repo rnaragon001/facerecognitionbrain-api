@@ -16,7 +16,7 @@ const db = knex({
       // user : 'rnaragon',
       // password : 'password',
       // database : 'facerecognitionbrain'
-      host : process.env.DATABASE_URL,
+      connectionString: process.env.DATABASE_URL,
       ssl : true
     }
   });
